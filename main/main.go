@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/jobunski/mpesa-go-sdk/internal"
 	"github.com/joho/godotenv"
-	"mpesa-go-sdk/internal"
 	"os"
 	"path/filepath"
 	"runtime"

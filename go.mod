@@ -1,4 +1,4 @@
-module mpesa-go-sdk
+module github.com/jobunski/mpesa-go-sdk
 
 go 1.19
 
