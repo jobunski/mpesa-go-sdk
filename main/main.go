@@ -32,13 +32,13 @@ func main() {
 	to the new directory
 	*/
 	Init()
-	internal.AssignConfigsToVariables(os.Getenv("APP_KEY"),
+	mpesa.AssignConfigsToVariables(os.Getenv("APP_KEY"),
 		os.Getenv("APP_SECRET"),
 		os.Getenv("BASE_URL"),
 		os.Getenv("CALLBACK_URL"))
 
-	v := internal.StkPushRequest(context.Background(), "174379", "20191213105713", "mnbcuenujncenni",
-		"174379", "nfjnejnwkkm", "Test", "Test", 1)
+	v := mpesa.StkPushRequest(context.Background(), "174379", "20191213105713", "254710119383",
+		"174379", "254710119383", "Test", "Test", 1)
 	if v != nil {
 		fmt.Printf("Error getting Access Token: %v", v)
 	}
