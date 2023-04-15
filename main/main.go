@@ -28,6 +28,7 @@ func main() {
 
 	/**
 	Loads the configuration file.
+
 	Either copies the env file tco the root directory or moves the location of the env file
 	to the new directory
 	*/
