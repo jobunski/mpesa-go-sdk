@@ -29,7 +29,7 @@ func main() {
 	/**
 	Loads the configuration file.
 	Either copies the env file tco the root directory or moves the location of the env file
-	to the new directorynd
+	to the new directory
 	*/
 	Init()
 	internal.AssignConfigsToVariables(os.Getenv("APP_KEY"),
