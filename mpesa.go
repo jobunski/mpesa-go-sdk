@@ -19,9 +19,8 @@ const (
 	STKQUERY       = "mpesa/stkpushquery/v1/query"
 	C2BURL         = "mpesa/c2b/v1/simulate"
 	C2BREGISTERURL = "mpesa/c2b/v1/registerurl"
-
-	url      = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
-	password = "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMTkxMjEzMTA1NzEz"
+	url            = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
+	password
 )
 
 /**

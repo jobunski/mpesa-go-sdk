@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/jobunski/mpesa-go-sdk/internal"
+	"github.com/jobunski/mpesa-go-sdk"
 	"github.com/joho/godotenv"
 	"os"
 	"path/filepath"
@@ -28,6 +28,7 @@ func main() {
 
 	/**
 	Loads the configuration file.
+	Test
 	Either copies the env file tco the root directory or moves the location of the env file
 	to the new directory
 	*/
